@@ -8,6 +8,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Orders from './pages/Orders';
 import AdminDashboard from './pages/AdminDashboard';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <Chatbot />
     </>
   );
 }
